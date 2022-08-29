@@ -1,0 +1,11 @@
+{
+    "AWSEBDockerrunVersion": "1",
+    "Image": {
+      "Name": "registry.hub.docker.com/dohahq/goldenwasteproject:latest"
+    },
+    "Ports": [
+      {
+        "ContainerPort": 8080
+      }
+    ]
+  } 
