@@ -4,9 +4,9 @@ pipeline {
         AWS_ACCESS_KEY_ID     = credentials('Access-key-ID')
         AWS_SECRET_ACCESS_KEY = credentials('Secret-access-key')
         ARTIFACT_NAME = 'goldenWastedd-0.0.1-SNAPSHOT.jar'
-        AWS_S3_BUCKET = 'goldenwaste-goldnwastebucket-k7w2c88u6g3r'
-        AWS_EB_APP_NAME = 'Goldenproject'
-        AWS_EB_ENVIRONMENT = 'Goldenproject-env'
+        AWS_S3_BUCKET = 'goldenwasteeb'
+        AWS_EB_APP_NAME = 'GoldenwasteEB'
+        AWS_EB_ENVIRONMENT = 'Goldenwasteeb-env'
         AWS_EB_APP_VERSION = "${BUILD_ID}"
     } 
     stages {
